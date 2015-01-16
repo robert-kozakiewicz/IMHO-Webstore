@@ -5,10 +5,8 @@ using System.Web;
 
 namespace ImhoWebstore.Models
 {
-    public class Product
+    public class Category
     {
         public string Name { get; set; }
-        public string Description { get; set; }
-        public Category Category { get; set; }
     }
 }
