@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ImhoWebstore.Models.Product>
+
+@{
+    ViewBag.Title = "List";
+}
+<div class="products-list">
+    <h2 class="h2 text-center">@ViewBag.Category</h2>
+
+    @if (@Model.Any())
+    {
+        <div class="items">
+                @foreach(var pr in @Model)
+                {
+                    <div class="col-md-2">@Html.ActionLink(pr.Name, "Details", "Product", new { productId = pr.Id }, new { @class = "btn btn-default" })</div>
+                }
+        </div>
+    }
+    else
+    {
+        <div>
+            Brak produktów w tej kategorii.
+        </div>
+    }
+</div>

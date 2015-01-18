@@ -16,8 +16,8 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                @Html.ActionLink("Home page", "Index", null, new { @class = "navbar-brand btn btn-default" })
-                @Html.ActionLink("About us", "About", null, new { @class = "navbar-brand" })
+                @Html.ActionLink("Strona główna", "Index", "Home", null, new { @class = "navbar-brand" })
+                @Html.ActionLink("O nas", "About", "Home", null, new { @class = "navbar-brand" })
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-right">
                 <ul class="nav navbar-nav">
@@ -26,15 +26,23 @@
             </div><!--/.navbar-collapse -->
         </div>
     </nav>
-
+    <div>
+        <div class="logo">
+            <div>IMHO - Sklep z poglądami</div>
+        </div>
+    </div>
     <div class="container">
-
         <div class="starter-template">
-            @RenderSection("featured", required: false)
-            @RenderBody()
+            <div class="col-md-10">
+                @RenderBody()
+            </div>
+            <div class="col-md-2 categories">
+                @Html.Action("Categories", "Home")
+            </div>
         </div>
 
     </div>
+    @Html.Partial("_Footer")
     @Scripts.Render("~/bundles/jquery")
     <script src="~/Scripts/bootstrap.js"></script>
     @RenderSection("scripts", required: false)

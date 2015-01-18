@@ -12,7 +12,27 @@ namespace ImhoWebstore.Repositories
         {
             return new List<Product>()
             {
-                new Product(){ Name = "Stoicyzm", Category = new Category(){ Name = "Filozofia" } }
+                new Product(){ 
+                    Id = 1, 
+                    Name = "Stoicyzm", 
+                    Category =  "Filozofia",
+                    ImageUrl = "stoicyzm.jpg",
+                    Description = "Światopogląd filozoficzny ceniący dyscyplinę moralną oraz postulujący odcięcie się od zdarzeń zewnętrznych."
+                },
+                new Product(){ 
+                    Id = 2, 
+                    Name = "Korwinista", 
+                    Category = "Polityka",
+                    ImageUrl = "stoicyzm.jpg",
+                    Description = "Pogląd "
+                },
+                new Product(){ 
+                    Id = 3, 
+                    Name = "Epikureizm", 
+                    Category =  "Filozofia",
+                    ImageUrl = "stoicyzm.jpg",
+                    Description = "Światopogląd filozoficzny ceniący dyscyplinę moralną oraz postulujący odcięcie się od zdarzeń zewnętrznych."
+                }
             };
         }
     }

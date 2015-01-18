@@ -754,3 +754,60 @@ tr.pager td {
             margin: 0;
         }
 }
+
+.logo {
+    background: #3e5667;
+    color: white;
+    /*border-radius: 10px;*/
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo div {
+    font-size: 3em;
+    font-family: Georgia;
+}
+
+.products{
+    border-radius: 10px;
+    border: 1px solid #a4d4e6;
+    height: 500px;
+}
+
+.categories{
+    border-left: 1px solid black;
+}
+
+.product-details{
+    padding: 20px;
+    background: #e2e2e2;
+    min-height: 600px;
+    text-align: left;
+}
+
+.product-details .description{
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+.products-list{
+    padding: 0px 20px 20px 20px;
+    text-align: left;
+    min-height: 300px;
+}
+
+.products-list .items{
+    padding: 30px;
+}
+
+.products-list .items ul{
+    list-style: none;
+}
+
+.about-us {
+    font-size: 1.5em;
+    font-family: Arial;
+    padding: 20px;
+}
