@@ -37,7 +37,7 @@ namespace ImhoWebstore.Repositories
                     Id = 4, 
                     Name = "Socjalizm", 
                     Category =  "Polityka",
-                    ImageUrl = "stoicyzm.jpg",
+                    ImageUrl = "socjal.jpg",
                     Description = "Socjalizm (łac. societas – wspólnota) – 1. wieloznaczne pojęcie, odnoszące się do ideologii politycznej wywodzącej się z utopijnej filozofii politycznej rozwijanej w latach 30. i 40. XIX wieku we Francji lub 2. doktryna gospodarcza postulująca upowszechnienia świadczeń socjalnych i poddania gospodarki kontroli społecznej (poprzez instytucje państwowe, samorządowe, korporacyjne lub spółdzielcze). Częścią wspólną wszystkich odmian socjalizmu jest (częściowe lub całkowite) odrzucenie idei kapitalizmu oraz promowanie idei sprawiedliwości społecznej. W skład pakietu wchodzi: 5GB nagrań zwolenników poglądu, 10 cytatów, 10 anegdot i rozmowa z socjalistą na forum."
                 },
                 new Product(){ 
@@ -45,14 +45,14 @@ namespace ImhoWebstore.Repositories
                     Name = "Deizm", 
                     Category =  "Religia",
                     ImageUrl = "deizm.jpg",
-                    Description = "Deizm – nurt religijno-filozoficzny, którego cechą wspólną jest przekonanie, że racjonalnie można uzasadnić istnienie jedynie Boga bezosobowego, będącego konstruktorem świata rozumianego jako mechanizm oraz źródłem praw, według których ten mechanizm świata działa. Tak rozumiany Bóg nie ingeruje w raz ustanowione prawa. Deizm nie jest zwartym systemem ani szkołą filozoficzną. Rozpowszechnił się głównie w Europie, a także w Ameryce Północnej."
+                    Description = "Deizm – nurt religijno-filozoficzny, którego cechą wspólną jest przekonanie, że racjonalnie można uzasadnić istnienie jedynie Boga bezosobowego, będącego konstruktorem świata rozumianego jako mechanizm oraz źródłem praw, według których ten mechanizm świata działa. Tak rozumiany Bóg nie ingeruje w raz ustanowione prawa. Deizm nie jest zwartym systemem ani szkołą filozoficzną. Rozpowszechnił się głównie w Europie, a także w Ameryce Północnej. W skład pakietu wchodzi: 20 wideo i gratis."
                 },
                 new Product(){ 
                     Id = 6, 
                     Name = "Teizm", 
                     Category =  "Religia",
-                    ImageUrl = "deizm.jpg",
-                    Description = "Teizm (gr. θεoς „bóg”) – wiara w istnienie Boga, bogów lub bogiń, którzy są osobami ingerującymi w losy świata lub jest on ich dziełem; czuwającymi nad biegiem wydarzeń lub podtrzymującymi świat w istnieniu oraz pogląd filozoficzno-religijny głoszący, że tacy bogowie istnieją."
+                    ImageUrl = "teizm.jpg",
+                    Description = "Teizm (gr. θεoς „bóg”) – wiara w istnienie Boga, bogów lub bogiń, którzy są osobami ingerującymi w losy świata lub jest on ich dziełem; czuwającymi nad biegiem wydarzeń lub podtrzymującymi świat w istnieniu oraz pogląd filozoficzno-religijny głoszący, że tacy bogowie istnieją. W skład pakietu wchodzi: 20 wideo i gratis."
                 },
             };
         }
