@@ -9,10 +9,14 @@
     @if (@Model.Any())
     {
         <div class="items">
-                @foreach(var pr in @Model)
-                {
-                    <div class="col-md-2">@Html.ActionLink(pr.Name, "Details", "Product", new { productId = pr.Id }, new { @class = "btn btn-default" })</div>
-                }
+            @foreach (var pr in @Model)
+            {
+
+                <div class="col-md-2">
+                    <img class="img-thumbnail" src="~/Images/Products/@pr.ImageUrl" />
+                    <h3>@Html.ActionLink(pr.Name, "Details", "Product", new { productId = pr.Id }, new { @class = "" })</h3>
+                </div>
+            }
         </div>
     }
     else

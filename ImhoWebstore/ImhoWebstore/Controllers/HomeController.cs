@@ -13,7 +13,7 @@ namespace ImhoWebstore.Controllers
 
         public ActionResult Index()
         {
-            return View(_productRepository.GetProducts().Take(5));
+            return View(_productRepository.GetProducts().Take(4));
         }
 
         public ActionResult About()

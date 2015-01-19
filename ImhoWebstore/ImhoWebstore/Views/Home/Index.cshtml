@@ -10,8 +10,9 @@
         <div>
             @foreach (var pr in Model)
             {
-                <div>
-                    <h2 class="col-md-2">@Html.ActionLink(pr.Name, "Details", "Product", new {productId = pr.Id}, null)</h2>
+                <div class="new-item col-md-3">
+                    <img src="~/Images/Products/@pr.ImageUrl" class="img-thumbnail" />
+                    <h2>@Html.ActionLink(pr.Name, "Details", "Product", new { productId = pr.Id }, new { @class = "" })</h2>
                 </div>
             }
         </div>
