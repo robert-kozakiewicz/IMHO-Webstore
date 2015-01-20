@@ -264,7 +264,17 @@
     <None Include="Properties\PublishProfiles\imhowebstore - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\imhowebstore - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Images\Products\deizm.jpg" />
+    <Content Include="Images\Products\epikur.jpg" />
+    <Content Include="Images\Products\invitro.jpg" />
+    <Content Include="Images\Products\kapitalizm.jpg" />
+    <Content Include="Images\Products\knp.png" />
+    <Content Include="Images\Products\liber.jpg" />
+    <Content Include="Images\Products\pis.png" />
+    <Content Include="Images\Products\po.jpg" />
+    <Content Include="Images\Products\socjal.jpg" />
     <Content Include="Images\Products\stoicyzm.jpg" />
+    <Content Include="Images\Products\teizm.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />

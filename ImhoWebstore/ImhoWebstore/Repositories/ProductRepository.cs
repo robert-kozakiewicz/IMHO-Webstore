@@ -31,7 +31,10 @@ namespace ImhoWebstore.Repositories
                     Name = "Epikureizm", 
                     Category =  "Filozofia",
                     ImageUrl = "epikur.jpg",
-                    Description = "Epikureizm - nakazuje człowiekowi wierzyć świadectwu zmysłów, cieszyć się życiem i korzystać z jego radości. „ Dobro to przyjemność-, czyli brak bólu” wg wyznawców tego nurtu. Epikurejczycy odrzucają wiarę w siły pozaziemskie, głoszą pochwałę życia na ziemi. Nazwa pochodzi od twórcy - Epikur, żyjącego na przełomie III i II w. p.n.e. Nie należy jednak mylić tego nurtu z hedonizmem, który rozwinął się później i preferował skrajna chęć użycia wszelkich możliwości rozkoszy.W cenę pakietu wchodzi: dokładna definicja epikureizmu, dzieła przedstawicieli epikureizmu, 10GB nagrań wypowiedzi specjalistów epikureizmu, rozmowa na chacie z prawdziwym epikurem. "
+                    Description = @"Epikureizm - nakazuje człowiekowi wierzyć świadectwu zmysłów, cieszyć się życiem i korzystać z jego radości. 
+                        „ Dobro to przyjemność-, czyli brak bólu” wg wyznawców tego nurtu. Epikurejczycy odrzucają wiarę w siły pozaziemskie, głoszą pochwałę
+                        życia na ziemi. Nazwa pochodzi od twórcy - Epikur, żyjącego na przełomie III i II w. p.n.e. Nie należy jednak mylić tego nurtu z hedonizmem, który rozwinął 
+                        się później i preferował skrajna chęć użycia wszelkich możliwości rozkoszy."
                 },
                 new Product(){ 
                     Id = 4, 
@@ -54,6 +57,41 @@ namespace ImhoWebstore.Repositories
                     ImageUrl = "teizm.jpg",
                     Description = "Teizm (gr. θεoς „bóg”) – wiara w istnienie Boga, bogów lub bogiń, którzy są osobami ingerującymi w losy świata lub jest on ich dziełem; czuwającymi nad biegiem wydarzeń lub podtrzymującymi świat w istnieniu oraz pogląd filozoficzno-religijny głoszący, że tacy bogowie istnieją. W skład pakietu wchodzi: 20 wideo i gratis."
                 },
+                new Product(){
+                    Id = 7, 
+                    Name = "Kapitalizm", 
+                    Category =  "Ekonomia",
+                    ImageUrl = "kapitalizm.jpg",
+                    Description = "System ekonomiczny oparty na prywatnej własności środków produkcji, wolnej przedsiębiorczości, wolnym obrocie towarami i usługami oraz na wolnej konkurencji pomiędzy podmiotami."
+                },
+                new Product(){
+                    Id = 8, 
+                    Name = "In vitro", 
+                    Category =  "Społeczne",
+                    ImageUrl = "invitro.jpg",
+                    Description = "Temat wzbudzający wiele emocji, będący obiektem gorących dyskusji (często na fatalnym poziomie merytorycznym). Dostępna zarówna opcja za, jak i przeciw."
+                },
+                new Product(){
+                    Id = 9, 
+                    Name = "Korwinista", 
+                    Category =  "Partie polityczne",
+                    ImageUrl = "knp.png",
+                    Description = "Dowiedz się już dziś dlaczego KNP ma tak dużą popularność wśród Twoich znajomych!"
+                },
+                new Product(){
+                    Id = 10, 
+                    Name = "Platformers", 
+                    Category =  "Partie polityczne",
+                    ImageUrl = "po.jpg",
+                    Description = "Poznaj program oraz historię partii rządzącej, której wszyscy nienawidzą."
+                },
+                new Product(){
+                    Id = 11, 
+                    Name = "PiSior", 
+                    Category =  "Partie polityczne",
+                    ImageUrl = "pis.png",
+                    Description = "Zapoznaj się z największa partią opozycyjną w Polsce i dowiedz się dlaczego głosuje na nią Twoja babcia!"
+                }
             };
         }
     }

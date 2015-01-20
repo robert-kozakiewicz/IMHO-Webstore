@@ -814,6 +814,11 @@ tr.pager td {
     min-height: 500px;
 }
 
+.products-list img{
+    width: 80%;
+    height: 100px;
+}
+
 .products-list a{
     text-decoration: none;
 }
@@ -847,6 +852,11 @@ tr.pager td {
 
 .navbar a {
     text-decoration: none;
+}
+
+.new-item img{
+    height: 200px;
+    width: 80%;
 }
 
 .new-item a{
